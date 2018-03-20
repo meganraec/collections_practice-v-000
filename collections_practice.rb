@@ -39,7 +39,7 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  array.scan {|x| x.start_with?("a")}
+  array.collect {|x| x.start_with?("a")}
 end
 #
 # Build a method `find_a` that returns all the strings in the array passed to it that `start_with?` (**hint**) the letter `"a"`. You'll want to use a high level iterator for this that finds, selects, or detects elements based on a condition.
