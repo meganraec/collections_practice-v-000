@@ -33,13 +33,14 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  array.detect {|x| x.start_with?("a")}
+  array.each {|x| x.start_with?("a")}
+  if x
+    return x
+  end
 end
-#
-# Build a method `find_a` that returns all the strings in the array passed to it that `start_with?` (**hint**) the letter `"a"`. You'll want to use a high level iterator for this that finds, selects, or detects elements based on a condition.
 
 def sum_array(array)
-# .inject
+ array.inject {|x| x + x.}
 end
 # Build a method `sum_array` that adds together all of the integers in the array and returns their sum.
 #
