@@ -34,9 +34,6 @@ end
 
 def find_a(array)
   array.each {|x| x.start_with?("a")}
-  if x
-    return x
-  end
 end
 
 def sum_array(array)
