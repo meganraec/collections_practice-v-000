@@ -41,5 +41,5 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.each {|x| x == "feet" ? x : x + "s"}
+  array.collect {|x| x + "s"}
 end
