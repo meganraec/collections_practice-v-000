@@ -35,10 +35,8 @@ end
 # Build a method `reverse_array` that takes in an array of integers and returns a copy of the array with the elements in reverse order.
 
 def kesha_maker(array)
-  array.co
+  array.sub(3, "$")
 end
-#
-# Build a method called `kesha_maker` that takes in an array of strings and replaces the third character in each string with a `$` ("dollar sign")—Ke$ha style. Use the `.each` method to iterate and build a new array to return at the end of your method, just like we did in the "My Each" lab.
 
 def find_a(array)
 end
