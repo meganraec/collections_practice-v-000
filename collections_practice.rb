@@ -9,8 +9,6 @@ end
 def sort_array_char_count
   array.sort_by {|x| x.length}
 end
-#
-# Build a method `sort_array_char_count` that takes in an array of strings and returns a copy of the array with the strings ordered in ascending order by length. Remember that `.sort` takes a block in which you can specify how you want your array sorted.
 
 def swap_elements(array)
 end
