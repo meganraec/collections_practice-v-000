@@ -36,7 +36,6 @@ end
 
 def kesha_maker(array)
   array.collect {|x| x.sub(x[3], "$")}
-  array
 end
 
 def find_a(array)
