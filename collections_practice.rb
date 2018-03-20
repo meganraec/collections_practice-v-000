@@ -42,4 +42,5 @@ end
 
 def add_s(array)
   array.each_with_index.collect {|x, y| x + "s"}
+  array[1].delete "s"
 end
