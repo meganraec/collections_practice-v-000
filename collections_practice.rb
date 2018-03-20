@@ -7,7 +7,7 @@ def sort_array_desc(array)
 end
 
 def sort_array_char_count
-  array.sort {|x| x.length}
+  array.sort {|x, y| x.length <=> y.length}
 end
 #
 # Build a method `sort_array_char_count` that takes in an array of strings and returns a copy of the array with the strings ordered in ascending order by length. Remember that `.sort` takes a block in which you can specify how you want your array sorted.
