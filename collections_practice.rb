@@ -39,9 +39,6 @@ end
 def sum_array(array)
   array.inject {|x, y| x + y}
 end
-# Build a method `sum_array` that adds together all of the integers in the array and returns their sum.
-#
-# **Advanced:** *Try using the* `.inject` *method here.*
 
 def add_s(array)
 end
