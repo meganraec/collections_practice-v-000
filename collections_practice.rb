@@ -29,8 +29,8 @@ end
 # **Advanced #2:** *Try writing test coverage for it!*
 
 def reverse_array(array)
-  array.!reverse
-  a
+  array.reverse!
+  array
 end
 # Build a method `reverse_array` that takes in an array of integers and returns a copy of the array with the elements in reverse order.
 
