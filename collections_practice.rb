@@ -35,7 +35,7 @@ end
 # Build a method `reverse_array` that takes in an array of integers and returns a copy of the array with the elements in reverse order.
 
 def kesha_maker(array)
-  array.collect {|x| x.sub(x[3], "$")}
+  array.collect {|x| x.sub(x[2], "$")}
 end
 
 def find_a(array)
