@@ -42,5 +42,5 @@ end
 
 def add_s(array)
   array.collect! {|x| x + "s"}
-  array.reject {|x| x = array[1]}
+  array.keep_if {|y| y =~ /[s]/} 
 end
