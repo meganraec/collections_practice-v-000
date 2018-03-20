@@ -11,6 +11,7 @@ def sort_array_char_count(array)
 end
 
 def swap_elements(array)
+  array.sort {|x| array[0] <=> array[2]}
 end
 #
 # Build a method `swap_elements` that takes in an array and swaps the second and third elements. Remember that array indices start at `0`, so the second element has an index of `1` and the third element has an index of `2`.
